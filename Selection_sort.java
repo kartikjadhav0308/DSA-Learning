@@ -4,7 +4,7 @@ public class Selection_sort {
         //find the small element and then push at it's appropriate position
         int[] arr = {8,7,2,3,1};
         
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<arr.length-1;i++){
             int small = i;
             //because starting element is the sorted in each iteration
             for(int j=i+1;j<arr.length;j++){
@@ -12,6 +12,7 @@ public class Selection_sort {
                     small=j;
                 }
             }
+
             int temp=arr[small];
             arr[small]=arr[i];
             arr[i]=temp;
