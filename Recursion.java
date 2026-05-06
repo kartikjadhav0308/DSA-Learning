@@ -39,7 +39,7 @@ public class Recursion {
         // p5to1(5);
         // p1to5(1);
         // sum_of_natural(5,0);
-        int ans = fact(5, 1);
-        System.out.println("Factorial:"+ans);
+        // int ans = fact(5, 1);
+        // System.out.println("Factorial:"+ans);
     }
 }
