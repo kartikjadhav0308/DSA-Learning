@@ -1,3 +1,4 @@
+package Recursion;
 public class X_n {
     public static int xn(int x , int n){
         if(n==0){

@@ -1,3 +1,4 @@
+package Recursion;
 public class chechArraySorted {
     public static boolean  check(int[] arr , int i ){
         if(i == arr.length-1){

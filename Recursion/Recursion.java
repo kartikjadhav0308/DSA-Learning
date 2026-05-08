@@ -1,3 +1,4 @@
+package Recursion;
 public class Recursion {
     static void p5to1(int a){
         if(a==0){

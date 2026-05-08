@@ -1,3 +1,4 @@
+package Sorting;
 public class Insertion_Sort {
     public static void main(String[] args) {
         // we have to part sorted and unsorted
